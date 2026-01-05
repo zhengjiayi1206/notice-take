@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+
+# Editors
+.idea/
+.vscode/
+*.iml
+
+# Python
+backend/**/__pycache__/
+backend/**/*.py[cod]
+backend/**/.env
+backend/**/.venv/
+backend/**/logs/
+backend/**/config/env.json
+backend/**/config/hms_token.txt
+backend/**/config/*service_account*.json
+
+# Flutter / Dart
+frontend/**/.dart_tool/
+frontend/**/.packages
+frontend/**/.pub-cache/
+frontend/**/build/
+frontend/**/.flutter-plugins
+frontend/**/.flutter-plugins-dependencies
+frontend/**/android/.gradle/
+frontend/**/android/local.properties
+frontend/**/android/key.properties
+frontend/**/ios/Pods/
+frontend/**/ios/.symlinks/
+frontend/**/macos/Flutter/ephemeral/
+frontend/**/linux/flutter/ephemeral/
+frontend/**/windows/flutter/ephemeral/

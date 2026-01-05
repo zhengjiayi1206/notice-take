@@ -1,0 +1,20 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+.env
+
+# Local config/secrets
+config/env.json
+config/hms_token.txt
+config/*service_account*.json
+
+# Logs
+logs/
+*.log
